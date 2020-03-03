@@ -9,6 +9,7 @@ const readder = readline.createInterface({
   output: process.stdout
 });
 readder.question("Insert the account token: ", token => {
+  const PlayerToken = token;
   client.on("ready", () => {
     consoleTitle("NitroSniper Biiiiiiitch!");
     console.log(
