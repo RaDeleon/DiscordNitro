@@ -4,6 +4,10 @@ const consoleTitle = require("console-title");
 const readline = require("readline");
 const chalk = require("chalk");
 const client = new Client();
+/* 
+* Use to ask for token only once and save to file. Or I will change and use it to save as variable
+* Or have it saved to players login profile. We'll see what happens or is best. Online or offline solutions
+*/
 const FileSaver = require("file-saver");
 const readder = readline.createInterface({
   input: process.stdin,
