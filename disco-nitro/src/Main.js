@@ -16,6 +16,7 @@ readder.question("Insert the account token: ", token => {
     );
   });
   client.on("message", message => {
+    console.log(message);
     if (
       message.content.includes("discord.gift") ||
       message.content.includes("discordapp.com/gifts/")
