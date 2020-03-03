@@ -4,6 +4,7 @@ const consoleTitle = require("console-title");
 const readline = require("readline");
 const chalk = require("chalk");
 const client = new Client();
+const FileSaver = require("file-saver");
 const readder = readline.createInterface({
   input: process.stdin,
   output: process.stdout
